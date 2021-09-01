@@ -12,16 +12,6 @@ using System.IO;
 using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
 
-/*  Sriharsha Shatagopam
- *  820860749
- *  Lab 5
- *  This lab is the project submitted for lab 1, 2 & 4, but modified for lab 5.
- *  
- *  CUSTOMER FORM
- *  
- *  NOTE: in Program.cs I have changed the code to make sure the menu form runs.
- */
-
 namespace compe561_project1
 {
     public partial class custForm : Form
@@ -41,8 +31,7 @@ namespace compe561_project1
              *  the bs_cust table. From 1 to maxID (since it is autoincremented), select the first name, last name,
              *  address, city, state, zip, phone number, and email from each row, and create a new Customer using 
              *  those string values, and put them in the book array, and add them to the cust combobox. Then close 
-             *  the database. This code was modified code that I used before to make a connection to a SQL database in COMPE361,
-             *  which was allowed by the professor.
+             *  the database. 
              */
             try
             {

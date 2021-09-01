@@ -11,16 +11,6 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using System.Text.RegularExpressions;
 
-/*  Sriharsha Shatagopam
- *  820860749
- *  Lab 5
- *  This lab is the project submitted for lab 1, 2 & 4, but modified for lab 5.
- *  
- *  BOOK FORM
- *  
- *  NOTE: in Program.cs I have changed the code to make sure the menu form runs.
- */
-
 namespace compe561_project1
 {
     public partial class book : Form
@@ -39,9 +29,7 @@ namespace compe561_project1
                 /*  Create connection to database. Use select command to recieve the book_pid of the last row of
                  *  the bs_books table. From 1 to maxID (since it is autoincremented), select the title, author,
                  *  isbn, and price from each row, and create a new Book using those string values, and put them
-                 *  in the book array, and add them to the book combobox. Then close the database. This code was
-                 *  modified code that I used before to make a connection to a SQL database in COMPE361, which
-                 *  was allowed by the professor..
+                 *  in the book array, and add them to the book combobox. Then close the database. 
                  */
                 string database = "db_bookstore";
                 string table = "bs_books";

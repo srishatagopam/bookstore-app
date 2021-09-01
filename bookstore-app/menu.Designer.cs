@@ -73,6 +73,7 @@
             this.Controls.Add(this.custButton);
             this.Name = "menu";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.menu_Load);
             this.ResumeLayout(false);
 
         }
