@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace compe561_project1
+namespace bookstore_app
 {
     static class Program
     {

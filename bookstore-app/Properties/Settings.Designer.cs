@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace compe561_project1.Properties
+namespace bookstore_app.Properties
 {
 
 

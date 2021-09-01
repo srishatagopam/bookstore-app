@@ -12,7 +12,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
 
-namespace compe561_project1
+namespace bookstore_app
 {
     public partial class custForm : Form
     {

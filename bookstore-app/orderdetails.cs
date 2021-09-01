@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-namespace compe561_project1
+namespace bookstore_app
 {
     public partial class orderdetails : Form
     {   //Get values of order from intstantiation of orderdetails form. I got the idea from here:

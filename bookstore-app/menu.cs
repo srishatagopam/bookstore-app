@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Windows;
 
 
-namespace compe561_project1
+namespace bookstore_app
 {
     public partial class menu : Form
     {

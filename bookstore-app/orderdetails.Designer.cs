@@ -1,4 +1,4 @@
-﻿namespace compe561_project1
+﻿namespace bookstore_app
 {
     partial class orderdetails
     {

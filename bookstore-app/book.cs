@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using System.Text.RegularExpressions;
 
-namespace compe561_project1
+namespace bookstore_app
 {
     public partial class book : Form
     {
